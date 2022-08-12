@@ -82,6 +82,8 @@ typings/
 .nuxt
 dist
 build
+build/
+.firebase
 
 # Gatsby files
 .cache/
