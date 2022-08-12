@@ -1,57 +1,57 @@
 [
     {
         "codigo": 1,
-        "nit": "78978988",
+        "nit": "78978981",
         "nombre": "Angel",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
     {
         "codigo": 2,
-        "nit": "78978988",
-        "nombre": "Angel",
+        "nit": "78978982",
+        "nombre": "Manueller",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
     {
         "codigo": 3,
-        "nit": "78978988",
-        "nombre": "Angel",
+        "nit": "78978983",
+        "nombre": "Rudi",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
     {
         "codigo": 4,
-        "nit": "78978988",
-        "nombre": "Angel",
+        "nit": "78978984",
+        "nombre": "Casas",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
     {
         "codigo": 5,
         "nit": "78978988",
-        "nombre": "Angel",
+        "nombre": "folde",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
     {
         "codigo": 6,
         "nit": "78978988",
-        "nombre": "Angel",
+        "nombre": "Luc",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
     {
         "codigo": 7,
         "nit": "78978988",
-        "nombre": "Angel",
+        "nombre": "Brayan",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
     {
         "codigo": 8,
         "nit": "78978988",
-        "nombre": "Angel",
+        "nombre": "Micasa",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
@@ -65,7 +65,7 @@
     {
         "codigo": 10,
         "nit": "78978988",
-        "nombre": "Angel",
+        "nombre": "Sebas",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
@@ -79,35 +79,35 @@
     {
         "codigo": 12,
         "nit": "78978988",
-        "nombre": "Angel",
+        "nombre": "Luchos",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
     {
         "codigo": 13,
         "nit": "78978988",
-        "nombre": "Angel",
+        "nombre": "Aida",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
     {
         "codigo": 14,
         "nit": "78978988",
-        "nombre": "Angel",
+        "nombre": "Dainor",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
     {
         "codigo": 15,
         "nit": "78978988",
-        "nombre": "Angel",
+        "nombre": "Jose",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
     {
         "codigo": 16,
         "nit": "78978988",
-        "nombre": "Angel",
+        "nombre": "Dairnol",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
@@ -121,91 +121,91 @@
     {
         "codigo": 18,
         "nit": "78978988",
-        "nombre": "Angel",
+        "nombre": "Vania",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
     {
         "codigo": 19,
         "nit": "78978988",
-        "nombre": "Angel",
+        "nombre": "Emanuel ",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
     {
         "codigo": 20,
         "nit": "78978988",
-        "nombre": "Angel",
+        "nombre": "Rodrigo",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
     {
         "codigo": 21,
         "nit": "78978988",
-        "nombre": "Angel",
+        "nombre": "Jose Jose",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
     {
         "codigo": 22,
         "nit": "78978988",
-        "nombre": "Angel",
+        "nombre": "Best",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
     {
         "codigo": 23,
         "nit": "78978988",
-        "nombre": "Angel",
+        "nombre": "Sah",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
     {
         "codigo": 24,
         "nit": "78978988",
-        "nombre": "Angel",
+        "nombre": "Pedro",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
     {
         "codigo": 25,
         "nit": "78978988",
-        "nombre": "Angel",
+        "nombre": "Angel 2",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
     {
         "codigo": 26,
         "nit": "78978988",
-        "nombre": "Angel",
+        "nombre": "Luis 2",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
     {
         "codigo": 27,
         "nit": "78978988",
-        "nombre": "Angel",
+        "nombre": "Grec",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
     {
         "codigo": 28,
         "nit": "78978988",
-        "nombre": "Angel",
+        "nombre": "Renson",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
     {
         "codigo": 29,
         "nit": "78978988",
-        "nombre": "Angel",
+        "nombre": "Sara 2",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
     {
         "codigo": 30,
         "nit": "78978988",
-        "nombre": "Angel",
+        "nombre": "Daniel 2",
         "razon_social": "hdario",
         "telefono": "7656765"
     },
@@ -295,6 +295,265 @@
     },
     {
         "codigo": 43,
+        "nit": "444444",
+        "nombre": "Ricardo",
+        "razon_social": "delivery",
+        "telefono": "656757"
+    },
+    {
+        "codigo": 44,
+        "nit": "78978988",
+        "nombre": "Angel",
+        "razon_social": "hdario",
+        "telefono": "7656765"
+    },
+    {
+        "codigo": 45,
+        "nit": "78978988",
+        "nombre": "Angel",
+        "razon_social": "hdario",
+        "telefono": "7656765"
+    },
+    {
+        "codigo": 46,
+        "nit": "78978988",
+        "nombre": "Angel",
+        "razon_social": "hdario",
+        "telefono": "7656765"
+    },
+    {
+        "codigo": 47,
+        "nit": "78978988",
+        "nombre": "Angel",
+        "razon_social": "hdario",
+        "telefono": "7656765"
+    },
+    {
+        "codigo": 48,
+        "nit": "78978988",
+        "nombre": "Angel",
+        "razon_social": "hdario",
+        "telefono": "7656765"
+    },
+    {
+        "codigo": 49,
+        "nit": "78978988",
+        "nombre": "Angel",
+        "razon_social": "hdario",
+        "telefono": "7656765"
+    },
+    {
+        "codigo": 50,
+        "nit": "78978988",
+        "nombre": "Angel",
+        "razon_social": "hdario",
+        "telefono": "7656765"
+    },
+    {
+        "codigo": 51,
+        "nit": "78978988",
+        "nombre": "Angel",
+        "razon_social": "hdario",
+        "telefono": "7656765"
+    },
+    {
+        "codigo": 52,
+        "nit": "4555544",
+        "nombre": "Juana",
+        "razon_social": "Hiceto S.R.L.",
+        "telefono": "56677777"
+    },
+    {
+        "codigo": 53,
+        "nit": "78978988",
+        "nombre": "Angel",
+        "razon_social": "hdario",
+        "telefono": "7656765"
+    },
+    {
+        "codigo": 54,
+        "nit": "78978988",
+        "nombre": "Angel",
+        "razon_social": "hdario",
+        "telefono": "7656765"
+    },
+    {
+        "codigo": 55,
+        "nit": "78978988",
+        "nombre": "Angel",
+        "razon_social": "hdario",
+        "telefono": "7656765"
+    },
+    {
+        "codigo": 56,
+        "nit": "444444",
+        "nombre": "Ricardo",
+        "razon_social": "delivery",
+        "telefono": "656757"
+    },
+    {
+        "codigo": 57,
+        "nit": "444444",
+        "nombre": "Ricardo",
+        "razon_social": "delivery",
+        "telefono": "656757"
+    },
+    {
+        "codigo": 58,
+        "nit": "444444",
+        "nombre": "Ricardo",
+        "razon_social": "delivery",
+        "telefono": "656757"
+    },
+    {
+        "codigo": 59,
+        "nit": "444444",
+        "nombre": "Ricardo",
+        "razon_social": "delivery",
+        "telefono": "656757"
+    },
+    {
+        "codigo": 60,
+        "nit": "444444",
+        "nombre": "Ricardo",
+        "razon_social": "delivery",
+        "telefono": "656757"
+    },
+    {
+        "codigo": 60,
+        "nit": "444444",
+        "nombre": "Ricardo",
+        "razon_social": "delivery",
+        "telefono": "656757"
+    },
+    {
+        "codigo": 62,
+        "nit": "444444",
+        "nombre": "Ricardo",
+        "razon_social": "delivery",
+        "telefono": "656757"
+    },
+    {
+        "codigo": 63,
+        "nit": "444444",
+        "nombre": "Ricardo",
+        "razon_social": "delivery",
+        "telefono": "656757"
+    },
+    {
+        "codigo": 64,
+        "nit": "444444",
+        "nombre": "Ricardo",
+        "razon_social": "delivery",
+        "telefono": "656757"
+    },
+    {
+        "codigo": 65,
+        "nit": "444444",
+        "nombre": "Ricardo",
+        "razon_social": "delivery",
+        "telefono": "656757"
+    },
+    {
+        "codigo": 66,
+        "nit": "444444",
+        "nombre": "Ricardo",
+        "razon_social": "delivery",
+        "telefono": "656757"
+    },
+    {
+        "codigo": 67,
+        "nit": "444444",
+        "nombre": "Ricardo",
+        "razon_social": "delivery",
+        "telefono": "656757"
+    },
+    {
+        "codigo": 68,
+        "nit": "444444",
+        "nombre": "Ricardo",
+        "razon_social": "delivery",
+        "telefono": "656757"
+    },
+    {
+        "codigo": 69,
+        "nit": "444444",
+        "nombre": "Ricardo",
+        "razon_social": "delivery",
+        "telefono": "656757"
+    },
+    {
+        "codigo": 70,
+        "nit": "444444",
+        "nombre": "Ricardo",
+        "razon_social": "delivery",
+        "telefono": "656757"
+    },
+    {
+        "codigo": 71,
+        "nit": "444444",
+        "nombre": "Ricardo",
+        "razon_social": "delivery",
+        "telefono": "656757"
+    },
+    {
+        "codigo": 72,
+        "nit": "444444",
+        "nombre": "Ricardo",
+        "razon_social": "delivery",
+        "telefono": "656757"
+    },
+    {
+        "codigo": 73,
+        "nit": "444444",
+        "nombre": "Ricardo",
+        "razon_social": "delivery",
+        "telefono": "656757"
+    },
+    {
+        "codigo": 74,
+        "nit": "444444",
+        "nombre": "Ricardo",
+        "razon_social": "delivery",
+        "telefono": "656757"
+    },
+    {
+        "codigo": 75,
+        "nit": "444444",
+        "nombre": "Ricardo",
+        "razon_social": "delivery",
+        "telefono": "656757"
+    },
+    {
+        "codigo": 76,
+        "nit": "444444",
+        "nombre": "Ricardo",
+        "razon_social": "delivery",
+        "telefono": "656757"
+    },
+    {
+        "codigo": 77,
+        "nit": "444444",
+        "nombre": "Ricardo",
+        "razon_social": "delivery",
+        "telefono": "656757"
+    },
+    {
+        "codigo": 78,
+        "nit": "444444",
+        "nombre": "Ricardo",
+        "razon_social": "delivery",
+        "telefono": "656757"
+    },
+    {
+        "codigo": 79,
+        "nit": "444444",
+        "nombre": "Ricardo",
+        "razon_social": "delivery",
+        "telefono": "656757"
+    },
+    {
+        "codigo": 80,
         "nit": "444444",
         "nombre": "Ricardo",
         "razon_social": "delivery",

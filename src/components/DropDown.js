@@ -12,9 +12,9 @@ const CAMPO_FILTER = 'nombre';
 
 export default function DropDown() {
   const ref1 = useRef(null);
+  const searched = useRef('');
   const { newDocument, error, setError } = useContext(SearchContext);
   const isInViewport1 = useIsInViewport(ref1);
-  const [searched, setSearched] = useState('');
   const [dataComplete, setDataComplete] = useState([]);
   const [endFetch, setEndFetch] = useState(false)
   const [focus, setFocus] = useState(false);
@@ -41,24 +41,25 @@ export default function DropDown() {
   const [query, setQuery] = useState({ start: 1, limit: LIMIT_DEFAULT });
 
   useEffect(() => {
-    if (isInViewport1 && searched.trim() === '' && data.length > 0) {
-      fetchData();
+    if (searched) {
+      if (isInViewport1 && searched.current.value === '' && data.length > 0) {
+        fetchData();
+      }
     }
+
   }, [isInViewport1]);
 
   const fetchData = async () => {
-    console.log("fetchData");
-    console.log("endFetch", endFetch);
+
     let dataDocuments = [];
     if (!endFetch) {
       setLoading(true);
       dataDocuments = await getDocumentsPaginate(query.start, query.limit);
-      console.log(dataDocuments);
       setLoading(false);
       if (dataDocuments.length > 0) {
         setData([...data, ...dataDocuments]);
         setDataComplete([...dataComplete, ...dataDocuments]);
-        if (dataDocuments.length == query.limit) {
+        if (dataDocuments.length === query.limit) {
           let start = query.limit + 1;
           let limit = query.limit + LIMIT_DEFAULT;
           setQuery({ start: start, limit: limit });
@@ -66,7 +67,7 @@ export default function DropDown() {
           setEndFetch(true);
         }
       }
-      if (dataDocuments.length == 0) {
+      if (dataDocuments.length === 0) {
         setEndFetch(true);
       }
     }
@@ -74,50 +75,51 @@ export default function DropDown() {
 
   const onHandleChange = (e) => {
     const text = e.target.value;
-    setSearched(e.target.value);
-    if (text.trim() != '') {
+    if (text.trim() !== '') {
       //data = dataComplete.filter();
       const filtered = dataComplete.filter((value) => {
-
         //nombre | nit | codigo | razon_social | telefono
 
         switch (CAMPO_FILTER) {
           case 'nombre':
-            return value.nombre.toLowerCase().includes(searched.toLowerCase());
+            return value.nombre.toLowerCase().includes(searched.current.value.toLowerCase());
             break;
           case 'nit':
-            return value.nit.toLowerCase().includes(searched.toLowerCase());
+            return value.nit.toLowerCase().includes(searched.current.value.toLowerCase());
           case 'codigo':
-            return value.codigo.toLowerCase().includes(searched.toLowerCase());
+            return value.codigo.toLowerCase().includes(searched.current.value.toLowerCase());
             break;
           case 'razon_social':
-            return value.razon_social.toLowerCase().includes(searched.toLowerCase());
+            return value.razon_social.toLowerCase().includes(searched.current.value.toLowerCase());
             break;
           case 'telefono':
-            return value.telefono.toLowerCase().includes(searched.toLowerCase());
+            return value.telefono.toLowerCase().includes(searched.current.value.toLowerCase());
             break;
           default:
-            return value.nombre.toLowerCase().includes(searched.toLowerCase());
+            return value.nombre.toLowerCase().includes(searched.current.value.toLowerCase());
 
         }
       })
       setData(filtered);
-      if (filtered.length == 0) {
+      if (filtered.length === 0) {
         setNotFound(true);
+      } else {
+        setNotFound(false);
       }
     } else {
       setData(dataComplete);
+      setNotFound(false);
     }
   }
 
   useEffect(() => {
-    if (newDocument != null) {
+    if (newDocument !== null) {
       if (!error) {
         setData([newDocument]);
+        setDataComplete([...dataComplete, newDocument]);
         setNotFound(false);
       }
     }
-
   }, [newDocument])
 
   return (
@@ -130,7 +132,7 @@ export default function DropDown() {
         {
           focus ?
             <div className={styles.container}>
-              <input onChange={onHandleChange} className={styles.container__input__search} type="text" placeholder="Search..." />
+              <input onChange={onHandleChange} ref={searched} className={styles.container__input__search} type="text" placeholder="Search..." />
               <div className={styles.container__list}>
                 {
                   data.map
@@ -146,7 +148,7 @@ export default function DropDown() {
                   }
                 </div>
                 {
-                  notFound ? <div onClick={onHandleOpenModal} className={styles.container__list__notfound}><ModalMaterial campo={CAMPO_FILTER} value={searched} /></div> : null
+                  notFound ? <div onClick={onHandleOpenModal} className={styles.container__list__notfound}><ModalMaterial campo={CAMPO_FILTER} value={searched.current.value} /></div> : null
                 }
               </div>
             </div>
@@ -155,7 +157,7 @@ export default function DropDown() {
       </div>
       {
         focus ?
-          null : <div ref={ref1}></div>
+          null : <><div ref={searched}></div><div ref={ref1}></div></>
       }
     </div>
 

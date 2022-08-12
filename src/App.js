@@ -1,5 +1,3 @@
-// import './App.css';
-
 import SearchProvider from './context/SearchContext'
 import DropDown from './components/DropDown';
 function App() {

@@ -22,11 +22,10 @@ export default function ModalMaterial({ campo, value }) {
         campo,
         value
     }
-    console.log("props ", dataDefault);
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
-    const onHandleMigrate = () => migrateData();
+    // const onHandleMigrate = () => migrateData();
     return (
         <div>
             <Button onClick={handleOpen}>CREAR NUEVO REGISTRO</Button>

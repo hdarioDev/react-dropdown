@@ -7,11 +7,10 @@ import styles from '../styles/Form.module.scss';
 const Form = ({ onClose, dataDefault }) => {
 
     const { setNewDocument, setError, error } = useContext(SearchContext)
-
     const [datos, setDatos] = useState({
         nombre: dataDefault.campo == 'nombre' ? dataDefault.value : '',
         razon_social: dataDefault.campo == 'razon_social' ? dataDefault.value : '',
-        nit: dataDefault.campo == 'nit' ? dataDefault.value : '',
+        nit: dataDefault.campo === 'nit' ? dataDefault.value : '',
         telefono: dataDefault.campo == 'telefono' ? dataDefault.value : '',
         codigo: dataDefault.campo == 'codigo' ? dataDefault.value : '',
     })
@@ -30,11 +29,11 @@ const Form = ({ onClose, dataDefault }) => {
 
     const addNewDocument = async () => {
         if (
-            datos.nombre != ''
-            && datos.codigo != ''
+            datos.nombre !== ''
+            && datos.codigo !== ''
             && datos.nit != ''
-            && datos.razon_social != ''
-            && datos.telefono != ''
+            && datos.razon_social !== ''
+            && datos.telefono !== ''
         ) {
             const newDocument = {
                 codigo: datos.codigo, //uuid(),
@@ -47,7 +46,6 @@ const Form = ({ onClose, dataDefault }) => {
             setNewDocument(newDocument);
             setError(false);
             onClose();
-            console.log("res ", res);
         } else {
             setError(true);
         }

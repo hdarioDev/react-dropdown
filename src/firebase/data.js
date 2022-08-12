@@ -63,6 +63,7 @@ export async function migrateData() {
         mock.forEach(async (item) => {
             const docRef = collection(db, 'documents');
             const res = await addDoc(docRef, item);
+            console.log(res);
         })
     } catch (error) {
         console.log(error);
@@ -71,17 +72,16 @@ export async function migrateData() {
 }
 
 export async function getDocumentsPaginate(init = 1, end = 10) {
-
-    const messagesRef = collection(db, 'documents') // create collection reference
-    const q = query(messagesRef, orderBy('codigo'), startAt(init), limit(end)) // query documents
-    // First option
     let documents = [];
-
-    console.log("get data ");
-    const docsSnap = await getDocs(q)
-    docsSnap.forEach(doc => {
-        // console.log(doc.data())
-        documents.push(doc.data());
-    })
+    try {
+        const messagesRef = collection(db, 'documents');
+        const q = query(messagesRef, orderBy('codigo'), startAt(init), limit(end));
+        const docsSnap = await getDocs(q)
+        docsSnap.forEach(doc => {
+            documents.push(doc.data());
+        })
+    } catch (error) {
+        console.log(error);
+    }
     return documents;
 }
