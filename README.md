@@ -41,20 +41,18 @@ running in http://localhost:3000/
 
 ## Screenshot 2
 
-![App Screenshot](https://github.com/hdarioDev/assets/blob/main/screenshot-drop2.png?raw=true)
-
+![screenshot-drop2](https://user-images.githubusercontent.com/63020855/184371842-310d110a-3856-4531-bf9e-bfc4182790fd.png)
 ## Screenshot 3
 
-![App Screenshot](https://github.com/hdarioDev/assets/blob/main/screenshot-drop3.png?raw=true)
+![screenshot-drop3](https://user-images.githubusercontent.com/63020855/184372090-c7272877-95e9-4081-9ecb-30d72314b772.png)
 
 ## Screenshot 4
 
-![App Screenshot](https://github.com/hdarioDev/assets/blob/main/screenshot-drop4.png?raw=true)
-
+![screenshot-drop4](https://user-images.githubusercontent.com/63020855/184372185-119a6454-5b9e-4358-a71f-bf932d863327.png)
 ## Screenshot 5
 
-![App Screenshot](https://github.com/hdarioDev/assets/blob/main/screenshot-drop5.png?raw=true)
-
+![screenshot-drop5](https://user-images.githubusercontent.com/63020855/184372194-6f1dd959-ba80-4424-b185-248b1c422fc4.png)
 ## Authors
 
 - [@hdariodev](https://www.hdariodev.com)
+
