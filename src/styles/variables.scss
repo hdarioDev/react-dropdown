@@ -5,3 +5,15 @@ sans-serif;
 $color-primary :#e5353478;
 $color-secundary :#545478;
 $bg : #f9fdfe;
+
+@mixin breakpoint($point) {
+    @if $point ==md {
+
+        //320 PX MOBILE
+        //768 px  TABLET 
+        //1024 PX DESKTOP
+        @media(min-width: 320px) {
+            @content;
+        }
+    }
+}

@@ -25,6 +25,17 @@
         cursor: pointer;
     }
 
+    @include breakpoint(md) {
+
+        & {
+            width: 311px;
+
+            &__dropdown {
+                max-width: 311px;
+                width: 311px;
+            }
+        }
+    }
 }
 
 .container__list__item {
@@ -32,6 +43,7 @@
     padding-left: 12px;
     color: #444444;
     display: flex;
+    font-size: 14px;
 
     p {
         width: auto;
@@ -94,6 +106,16 @@
         flex-direction: row;
         align-items: center;
         width: 400px;
+    }
+
+    @include breakpoint(md) {
+        &__input__search {
+            width: 310px;
+        }
+
+        &__list__notfound {
+            width: 310px;
+        }
     }
 
 }
