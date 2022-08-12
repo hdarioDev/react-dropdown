@@ -1,6 +1,6 @@
 # Component Dropdown 
 
-React app with scoll infinito using intersection observer
+React app with infinite scoll using intersection observer
 
 # Database
 
