@@ -1,0 +1,26 @@
+.modal__container {
+    background-color: blueviolet;
+    border-radius: 4px;
+    color: white;
+    position: absolute;
+    top: 60px;
+    right: -160px;
+    display: flex;
+    flex-direction: column;
+    height: 188px;
+    width: auto;
+    box-shadow: 5px 5px 15px #aaaaaa;
+
+    // &__text {
+    //     margin: 8px 12px;
+    //     padding: 4px;
+
+    // }
+
+    // &__button {
+    //     height: 30px;
+    //     margin-right: 12px;
+    //     margin-left: 12px;
+    // }
+
+}
