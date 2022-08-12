@@ -37,8 +37,8 @@ running in http://localhost:3000/
 
 ## Screenshot 1
 
-![App Screenshot](https://raw.githubusercontent.com/hdarioDev/assets/main/screenshot-drop1.png?token=GHSAT0AAAAAABUMYDUJ6XMRXGKU5P2SGKAIYXWKWMA)
-
+![App Screenshot](https://drive.google.com/file/d/1PsIbVi7yroCm0Is3qhujPI11aypUci4l/view?usp=sharing)
+<img src="https://drive.google.com/file/d/1PsIbVi7yroCm0Is3qhujPI11aypUci4l/view?usp=sharing" alt="My cool logo"/>
 ## Screenshot 2
 
 ![App Screenshot](https://raw.githubusercontent.com/hdarioDev/assets/main/screenshot-drop2.png?token=GHSAT0AAAAAABUMYDUIFVTPC66BUO2HMUM6YXWKXXA)
