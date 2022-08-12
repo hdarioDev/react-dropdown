@@ -37,22 +37,23 @@ running in http://localhost:3000/
 
 ## Screenshot 1
 
-![Cat](https://raw.githubusercontent.com/hdarioDev/assets/main/screenshot-drop2.png)
+![App Screenshot](https://github.com/hdarioDev/assets/blob/main/screenshot-drop1.png?raw=true)
+
 ## Screenshot 2
 
-![App Screenshot](https://raw.githubusercontent.com/hdarioDev/assets/main/screenshot-drop2.png?token=GHSAT0AAAAAABUMYDUIFVTPC66BUO2HMUM6YXWKXXA)
+![App Screenshot](https://github.com/hdarioDev/assets/blob/main/screenshot-drop2.png?raw=true)
 
 ## Screenshot 3
 
-![App Screenshot](https://raw.githubusercontent.com/hdarioDev/assets/main/screenshot-drop3.png?token=GHSAT0AAAAAABUMYDUJUUIXAQJN2VWMMGMMYXWKZNQ)
+![App Screenshot](https://github.com/hdarioDev/assets/blob/main/screenshot-drop3.png?raw=true)
 
 ## Screenshot 4
 
-![App Screenshot](https://raw.githubusercontent.com/hdarioDev/assets/main/screenshot-drop4.png?token=GHSAT0AAAAAABUMYDUJCXAN6TT56GJA3NZ4YXWK2KQ)
+![App Screenshot](https://github.com/hdarioDev/assets/blob/main/screenshot-drop4.png?raw=true)
 
 ## Screenshot 5
 
-![App Screenshot](https://raw.githubusercontent.com/hdarioDev/assets/main/screenshot-drop5.png?token=GHSAT0AAAAAABUMYDUIKRCFCRI2CVORWXLYYXWK2YQ)
+![App Screenshot](https://github.com/hdarioDev/assets/blob/main/screenshot-drop5.png?raw=true)
 
 ## Authors
 
