@@ -37,7 +37,7 @@ running in http://localhost:3000/
 
 ## Screenshot 1
 
-![App Screenshot](https://github.com/hdarioDev/assets/blob/main/screenshot-drop1.png?raw=true)
+![screenshot-drop1](https://user-images.githubusercontent.com/63020855/184371424-132e7440-5ee6-4689-aae1-50e08edaaa5b.png)
 
 ## Screenshot 2
 
